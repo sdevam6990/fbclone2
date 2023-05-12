@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(241, 248, 248);
+        padding: 0px;
+        margin: 0px;
+      }
+
+      input:focus {
+        box-shadow: 1px 1px 8px rgb(131, 160, 201);
+        border-radius: 5px;
+        border: 1px solid #1f4ac1;
+      }
+      input {
+        font-size: larger;
+        padding: 10px;
+        outline: none;
+        width: 350px;
+        height: 50px;
+      }
+      input[type="submit"] {
+        cursor: pointer;
+        font-size: 1.3em;
+        border: 0px;
+        color: white;
+        background-color: rgb(46, 125, 243);
+      }
+      .form {
+        border-radius: 5px;
+        padding: 13px;
+        background-color: white;
+        float: left;
+        margin-left: 12.5%;
+        margin-top: 15%;
+        box-shadow: 1px 1px 15px rgb(211, 210, 210);
+      }
+      .logo {
+        float: left;
+        width: 31%;
+
+        margin-top: 17%;
+        margin-left: 12.5%;
+      }
+      h1 {
+        font-weight: bold;
+        color: rgb(46, 125, 243);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 1px 1px 2px;
+        font-size: 3.4em;
+        margin: 0px;
+      }
+      .link,
+      a {
+        text-align: center;
+        text-decoration: none;
+        color: rgb(46, 125, 243);
+      }
+      .link > a:hover {
+        text-decoration-line: underline;
+        text-decoration-color: rgb(46, 125, 243);
+      }
+      .account {
+        padding: 20px;
+
+        margin-left: 18%;
+        display: inline-block;
+        font-size: larger;
+      }
+      .account > a {
+        border-radius: 5px;
+        padding: 20px;
+        background-color: rgb(39, 185, 39);
+        color: rgb(255, 255, 255);
+      }
+      .account > a:hover {
+        background-color: rgb(36, 156, 36);
+      }
+
+      p {
+        margin: 0px;
+        font-size: 1.6em;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo">
+      <h1>facebook</h1>
+      <p>Facebook, the new way to connect with people.</p>
+    </div>
+    <div class="form">
+      <form action="some.php">
+        <input type="email" id="email" placeholder="Email " />
+        <label for="email"></label>
+        <br /><br />
+        <input type="password" id="password" placeholder="password" />
+        <label for="password"></label>
+        <br /><br />
+        <input type="submit" id="login" value="Log in" />
+        <label for="login"></label>
+        <br /><br />
+        <div class="link">
+          <a href="#some">Forgot your password?</a>
+        </div>
+        <hr />
+        <br />
+        <div class="account">
+          <a href="#some">Create a new account </a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
